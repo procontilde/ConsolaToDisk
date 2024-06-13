@@ -131,7 +131,7 @@ public class PracticeReadingOps {
 
             try {
 
-                if (bR != null) 	bR.close();
+                if (bR != null) bR.close();
                 if (bW != null) bW.close();
 
             } catch (IOException iOe) {
