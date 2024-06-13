@@ -11,7 +11,7 @@ public class AddTextToFile {
 
 	public static void main(String[] args) {
 		
-		AddTextToFile.appendText("/Users/manuelpalomo/Downloads/programacionAhoraSi23_24/teoriaProgramacion/ficheros/miFichero.txt");
+		AddTextToFile.appendText("/Users/manuelpalomo/Downloads/programacion23_24/teoriaProgramacion/ficheros/miFichero.txt");
 
 	}
 	
