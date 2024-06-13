@@ -9,11 +9,11 @@ public class ChangeCharacters {
        
         Scanner miScan = new Scanner(System.in);
 
-        System.out.println("Introduce la ruta del archivo:");
+        System.out.println("Introduzca la ruta del archivo:");
         String fileName = miScan.nextLine();
-        System.out.println("Introduce la letra original:");
+        System.out.println("Introduzca la letra original:");
         char originalChar = miScan.nextLine().charAt(0);
-        System.out.println("Introduce la letra cambiada:");
+        System.out.println("Introduzca la letra cambiada:");
         char newChar = miScan.nextLine().charAt(0);
 
         try {
@@ -69,7 +69,7 @@ public class ChangeCharacters {
         File tempFile = new File(fileName + "Copia");
         
         if (tempFile.renameTo(originalFile)) System.out.println("Archivo modificado con éxito.");
-        else throw new IOException("No se pudo renombrar el archivo temporal.");
+            else throw new IOException("No se pudo renombrar el archivo temporal.");
         
     }
     
