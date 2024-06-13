@@ -38,12 +38,12 @@ public class ConsolaToDisk {
                 
             }
 
-            System.out.println("Introduce el nombre del archivo:");
+            System.out.println("Introduzca el nombre del archivo:");
             String fileName = bR.readLine();
 
             if (fileName.isEmpty()) {
             	
-                System.out.println("Debes proporcionar el nombre del archivo.");
+                System.out.println("Debe proporcionar el nombre del archivo.");
                 return;
                 
             }
@@ -53,7 +53,7 @@ public class ConsolaToDisk {
 
             while (true) {
             	
-                System.out.println("Introduce una línea de texto (deja en blanco para terminar):");
+                System.out.println("Introduzca una línea de texto (deje en blanco para terminar):");
                 String line = bR.readLine();
 
                 if (line.isEmpty()) {
