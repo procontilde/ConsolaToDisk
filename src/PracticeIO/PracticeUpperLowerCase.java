@@ -52,9 +52,9 @@ public class PracticeUpperLowerCase {
 			
 			while(line != null) {
 					
-					char c = (char)bR.read();
-					if(Character.isUpperCase(c)) Character.toLowerCase(c);
-						 else Character.toUpperCase(c);
+				char c = (char)bR.read();
+				if(Character.isUpperCase(c)) Character.toLowerCase(c);
+					else Character.toUpperCase(c);
 				
 			}
 			
